@@ -7,7 +7,7 @@
 ##    1: set()       cache the argument matrix
 ##    2: get()       retrieve the the cached argument matrix
 ##    3: setInverse  calculate and cache the inverse of the argument
-##    4: getInverse  retrieve the caached inverse  
+##    4: getInverse  retrieve the cached inverse  
 
   makeCacheMatrix <- function(x = matrix()) {
     m <- matrix(rep(NA, nrow(x)*ncol(x)), nrow(x), ncol(x))
